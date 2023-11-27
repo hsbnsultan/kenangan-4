@@ -1,0 +1,429 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-custom {
+  background-color: #006633 !important;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  padding: 0 !important;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.hero {
+  height: 100vh !important;
+  background-image: url("../images/images-1.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  color: #ffffff;
+}
+
+.home {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../images/images-2.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
+.couple {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../images/s.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  color: #003300;
+}
+
+.our-journey {
+  position: relative;
+  min-height: 100vh;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(135deg, #3d8b3d 10%, #99cc99 90%);
+  color: #003300;
+}
+
+#galeri {
+  position: relative;
+  background-image: url(../images/images-9.png);
+  background-size: cover;
+  background-position: center;
+  color: #003300;
+}
+
+.love-gift {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../images/images-6.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  color: #003300;
+}
+
+#ucapan {
+  background-image: url(../images/images-3.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #003300;
+}
+
+.footer-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #009933;
+}
+
+.footer-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+}
+
+.font-estetik {
+  font-family: "Grand Hotel", cursive;
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+
+.font-kalem {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+
+.font-depan {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.font-keren {
+  font-family: "Grand Hotel", cursive;
+  font-weight: 500;
+  font-size: 2.57rem;
+}
+
+.font-tulisan {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.font-cool {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.font-mantap {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.font-asyik {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.font-tanggal {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.img-crop {
+  width: 16rem;
+  height: 18rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10% 10% 5% 5%;
+}
+
+.img-crop > img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.img-home {
+  width: 16rem;
+  height: 18rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 250px 250px 0 0;
+}
+
+.img-home > img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.img-custom {
+  width: 14rem;
+  height: 14rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-custom > img {
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+}
+
+.btn-music {
+  position: fixed;
+  bottom: 9vh;
+  right: 2vh;
+  z-index: 1055;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212529;
+  z-index: 1056 !important;
+}
+
+.card-body {
+  overflow-wrap: break-word !important;
+  color: #003300;
+}
+
+.card.bg-custom {
+  background: linear-gradient(135deg, #3d8b3d 10%, #99cc99 90%);
+}
+
+.card-body.bg-custom {
+  background: linear-gradient(135deg, #3d8b3d 10%, #99cc99 90%);
+}
+
+.btn-custom {
+  background-color: #006633;
+  padding: 8px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+}
+
+.btn-custom:hover {
+  background-color: #009933;
+}
+
+.border-custom {
+  border: 5px solid transparent;
+}
+
+.date {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #009933;
+}
+
+.date::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+}
+
+.centered-button {
+  position: absolute;
+  bottom: 10rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hidden-before-click {
+  display: none;
+}
+
+.info {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../images/b.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  color: #003300;
+}
+
+.info .description {
+  font-size: 1.2rem;
+}
+
+.info .card {
+  background: linear-gradient(135deg, #3d8b3d 10%, #99cc99 90%);
+  color: #003300 !important;
+  border: 2px solid #003300;
+}
+
+.info .card-body h5 {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  font-size: 2.25rem;
+  color: #003300;
+}
+
+.info .card-body p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: #003300;
+}
+
+.section-title {
+  color: #003300;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 2.7rem;
+  height: 2.7rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.35rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+  background-color: #003300;
+}
+
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.rounded-social-buttons .social-button.website {
+  background: #003300;
+}
+
+.rounded-social-buttons .social-button.whatsapp:hover,
+.rounded-social-buttons .social-button.whatsapp:focus,
+.rounded-social-buttons .social-button.instagram:hover,
+.rounded-social-buttons .social-button.instagram:focus,
+.rounded-social-buttons .social-button.website:hover,
+.rounded-social-buttons .social-button.website:focus {
+  color: #003300;
+  background: #fefefe;
+  border-color: #003300;
+}
+
+.social-icons a i {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 2.65rem;
+  height: 2.65rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.25rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: color 0.3s, background 0.3s, border-color 0.3s;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+  background-color: #003300;
+}
+
+.social-icons a i:hover,
+.social-icons a i:focus {
+  color: #003300;
+  background: #fefefe;
+  border-color: #003300;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heart {
+  animation: heartbeat 1s infinite;
+}
