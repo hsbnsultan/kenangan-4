@@ -56,13 +56,20 @@ body::-webkit-scrollbar {
   min-height: 100vh;
   padding-top: 10rem;
   padding-bottom: 8rem;
-  background: linear-gradient(135deg, #3d8b3d 10%, #99cc99 90%);
+  background: linear-gradient(
+    0deg,
+    rgba(27, 241, 27, 0.6) 35%,
+    rgba(27, 241, 27, 0.6) 100%
+  );
   color: #003300;
 }
 
 #galeri {
   position: relative;
-  background-image: url(../images/images-9.png);
+  min-height: 100vh;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  background-image: url(../images/b.png);
   background-size: cover;
   background-position: center;
   color: #003300;
@@ -153,12 +160,34 @@ body::-webkit-scrollbar {
   font-size: 1.2rem;
 }
 
+.font-tamu {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
 .font-asyik {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   font-size: 2.2rem;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+}
+
+.font-akad {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.font-nama {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
 }
 
 .font-tanggal {
@@ -170,8 +199,8 @@ body::-webkit-scrollbar {
 }
 
 .img-crop {
-  width: 16rem;
-  height: 18rem;
+  width: 14rem;
+  height: 16rem;
   position: relative;
   overflow: hidden;
   border-radius: 10% 10% 5% 5%;
@@ -236,11 +265,22 @@ body::-webkit-scrollbar {
 }
 
 .card.bg-custom {
-  background: linear-gradient(135deg, #3d8b3d 10%, #99cc99 90%);
+  background: linear-gradient(
+    0deg,
+    rgba(27, 241, 27, 0.6) 35%,
+    rgba(27, 241, 27, 0.6) 100%
+  );
+  opacity: 0.85;
 }
 
 .card-body.bg-custom {
-  background: linear-gradient(135deg, #3d8b3d 10%, #99cc99 90%);
+  background: linear-gradient(
+    0deg,
+    rgba(27, 241, 27, 0.6) 35%,
+    rgba(27, 241, 27, 0.6) 100%
+  );
+
+  opacity: 0.85;
 }
 
 .btn-custom {
@@ -314,7 +354,13 @@ body::-webkit-scrollbar {
 }
 
 .info .card {
-  background: linear-gradient(135deg, #3d8b3d 10%, #99cc99 90%);
+  background: linear-gradient(
+    0deg,
+    rgba(27, 241, 27, 0.6) 35%,
+    rgba(27, 241, 27, 0.6) 100%
+  );
+
+  opacity: 0.85;
   color: #003300 !important;
   border: 2px solid #003300;
 }
